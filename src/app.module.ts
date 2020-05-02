@@ -13,6 +13,7 @@ dotenv.config()
     MongooseModule.forRoot(process.env.DATABASE, { useUnifiedTopology: true, useNewUrlParser: true }),
     GraphQLModule.forRoot({
       autoSchemaFile: 'schema.gql',
+      context: ({ req }) => ({ req }),
       debug: true,
       playground: true,
       introspection: true
