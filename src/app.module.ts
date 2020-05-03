@@ -5,6 +5,7 @@ import { AuthModule } from './auth/auth.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { GraphQLModule } from '@nestjs/graphql';
 import { GamesModule } from './games/games.module';
+import { UsersModule } from './users/users.module';
 
 dotenv.config()
 
@@ -19,7 +20,8 @@ dotenv.config()
       introspection: true
     }),
     AuthModule,
-    GamesModule
+    GamesModule,
+    UsersModule
   ],
   controllers: [AppController],
   providers: [],

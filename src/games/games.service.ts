@@ -1,8 +1,8 @@
 import { Model } from 'mongoose';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Game } from './interfaces/game.interface';
 import { GameInput } from './inputs/game.input';
+import { Game } from 'src/models/game.model';
 
 @Injectable()
 export class GamesService {
