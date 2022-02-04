@@ -1,6 +1,9 @@
 {
   "name": "bluff-app",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "src/app.ts",
   "repository": "git@github.com:MarcinHorczak/bluff-app.git",
   "author": "Marcin Horczak <marcin.horczak737@gmail.com>",
