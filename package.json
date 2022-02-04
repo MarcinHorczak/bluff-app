@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node dist/app.js",
-    "build": "npx tsc",
+    "build": "tsc",
     "postinstall": "npm run build"
   },
   "dependencies": {
