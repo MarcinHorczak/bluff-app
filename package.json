@@ -6,7 +6,8 @@
   "author": "Marcin Horczak <marcin.horczak737@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register ."
+    "start": "npm ci && node dist/app.js",
+    "start:dev": "ts-node -r tsconfig-paths/register ."
   },
   "dependencies": {
     "dotenv": "^16.0.0",
