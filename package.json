@@ -2,7 +2,7 @@
   "name": "bluff-app",
   "version": "1.0.0",
   "engines": {
-    "node": "12.22.1"
+    "node": "14.0.0"
   },
   "main": "src/app.ts",
   "repository": "git@github.com:MarcinHorczak/bluff-app.git",
