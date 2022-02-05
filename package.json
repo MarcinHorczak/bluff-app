@@ -9,9 +9,7 @@
   "author": "Marcin Horczak <marcin.horczak737@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/app.js",
-    "build": "tsc",
-    "postinstall": "npm run build"
+    "start": "ts-node src/app.ts"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
