@@ -13,7 +13,7 @@ app.use("/", router);
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: "*" } });
 
-server.listen(process.env.API_PORT, () => {
+server.listen(process.env.PORT, () => {
   console.log(`Server started.`);
 
   io.on("connection", console.log);
